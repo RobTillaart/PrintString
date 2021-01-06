@@ -13,8 +13,8 @@
 //  0.2.0   2021-01-06  add Arduino-CI + unit test
 
 
+#include "Arduino.h"
 #include "Print.h"
-#include "String.h"
 
 
 #define PRINTSTRING_VERSION       (F("0.2.0"))
