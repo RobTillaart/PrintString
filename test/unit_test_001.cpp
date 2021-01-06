@@ -58,11 +58,11 @@ unittest(test_constructor)
   assertEqual(0,   ps.size());
 
   ps.print("Hello World");
-  fprintf(stderr, "%s\n", ps.getString());
+  fprintf(stderr, "%s\n", ps.getString().toCharArray());
   assertEqual(11, ps.size());
 
   ps.print(" and moon");
-  fprintf(stderr, "%s\n", ps.getString());
+  fprintf(stderr, "%s\n", ps.getString().toCharArray());
   assertEqual(20, ps.size());
 
   ps.clear();
