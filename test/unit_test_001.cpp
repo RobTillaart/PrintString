@@ -39,6 +39,7 @@
 #include "Arduino.h"
 #include "PrintString.h"
 
+char buffer[100];
 
 unittest_setup()
 {
@@ -57,12 +58,15 @@ unittest(test_constructor)
 
   assertEqual(0,   ps.size());
 
+  // not so nice but best I could do on short term
   ps.print("Hello World");
-  fprintf(stderr, "%s\n", ps.getString().toCharArray());
+  ps.getString().toCharArray(buffer, 100);
+  fprintf(stderr, "%s\n", buffer);
   assertEqual(11, ps.size());
 
   ps.print(" and moon");
-  fprintf(stderr, "%s\n", ps.getString().toCharArray());
+  ps.getString().toCharArray(buffer, 100);
+  fprintf(stderr, "%s\n", buffer);
   assertEqual(20, ps.size());
 
   ps.clear();
