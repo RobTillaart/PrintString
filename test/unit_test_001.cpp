@@ -53,7 +53,7 @@ unittest(test_constructor)
 {
   fprintf(stderr, "VERSION: %s\n", PRINTSTRING_VERSION);
 
-  PrintString ps(100);
+  PrintString ps();
 
   assertEqual(0,   ps.size());
 
