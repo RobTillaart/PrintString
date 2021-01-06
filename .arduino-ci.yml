@@ -3,6 +3,8 @@ compile:
   platforms:
     - uno
     - leonardo
+    - due
+    - zero
   # Declaring Dependent Arduino Libraries (to be installed via the Arduino Library Manager)
   libraries:
     - "XMLWriter"
