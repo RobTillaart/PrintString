@@ -9,3 +9,9 @@ compile:
   libraries:
     - "XMLWriter"
     - "String"
+
+unittest:
+  # These dependent libraries will be installed
+  libraries:
+    - "String"
+    
