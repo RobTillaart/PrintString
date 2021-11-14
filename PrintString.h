@@ -37,7 +37,7 @@ public:
 
   size_t write(uint8_t * str, uint8_t length)
   {
-    buffer.concat((char *) str);
+    buffer.concat(String((char*)str));
     return length;
   }
 
