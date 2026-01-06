@@ -26,8 +26,9 @@ This String can be requested to process later.
   (e.g. floats)
 
 
-#### Related
+### Related
 
+- https://github.com/RobTillaart/lineFormatter for tabular formatting.
 - https://github.com/RobTillaart/PrintCharArray captures data in a char array buffer.
 - https://github.com/RobTillaart/PrintSize counts length of a number of print commands.
 - https://github.com/RobTillaart/PrintString captures data in a String.
