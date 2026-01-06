@@ -25,6 +25,8 @@ This String can be requested to process later.
   use to prevent "display line overflow"
   (e.g. floats)
 
+Feedback as always is welcome.
+
 
 ### Related
 
@@ -57,15 +59,14 @@ See examples.
 
 #### Must
 
-- documentation
+- improve documentation
 
 #### Should
 
 - keep in sync with PrintCharArray class
 - testing
-- examples
-  - add new ones
-  - rename examples
+- add examples
+- rename examples
 - add functions like **repeat(char c)** to inject e.g. 7 spaces etc.
 - add error flag
 
